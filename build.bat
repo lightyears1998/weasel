@@ -109,11 +109,11 @@ if %build_rime% == 1 (
   )
 
   cd %WEASEL_ROOT%\librime
-  if not exist librime\thirdparty\lib\opencc.lib (
+  if not exist thirdparty\lib\opencc.lib (
     call build.bat thirdparty %rime_build_variant%
     if errorlevel 1 goto error
   )
-  call build.bat %rime_build_variant%
+  call build.bat librime %rime_build_variant%
   if errorlevel 1 goto error
 
 cd %WEASEL_ROOT%
