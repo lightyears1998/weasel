@@ -1,9 +1,10 @@
-### 编译测试通过:
+### 编译测试环境:
     windows10 Pro 19043.844
     Visual Studio 2017 Developer Command Prompt v15.9.34 (组件配置如vsconfig所示)
-    boost_1_75_0-msvc-14.1-64
+    boost_1_75_0-msvc-14.1-64 （offical release，该版本默认无bjam.exe，须手动复制同目录下b2.exe为该文件）
     git
     python2.7
+    cmake-3.20.0
 
 ##### vsconfig:
 ```
