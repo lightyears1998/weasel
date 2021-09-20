@@ -25,3 +25,39 @@
 	]
 }
 ```
+or
+```
+{
+  "version": "1.0",
+  "components": [
+    "Microsoft.VisualStudio.Component.CoreEditor",
+    "Microsoft.VisualStudio.Workload.CoreEditor",
+    "Microsoft.VisualStudio.Component.Roslyn.Compiler",
+    "Microsoft.Component.MSBuild",
+    "Microsoft.VisualStudio.Component.Static.Analysis.Tools",
+    "Microsoft.Net.Component.4.6.1.SDK",
+    "Microsoft.Net.Component.4.6.1.TargetingPack",
+    "Microsoft.VisualStudio.Component.TextTemplating",
+    "Microsoft.VisualStudio.Component.Debugger.JustInTime",
+    "Microsoft.VisualStudio.Component.NuGet",
+    "Microsoft.VisualStudio.ComponentGroup.WebToolsExtensions",
+    "Microsoft.VisualStudio.Component.VC.CoreIde",
+    "Microsoft.VisualStudio.Component.VC.Redist.14.Latest",
+    "Microsoft.VisualStudio.ComponentGroup.NativeDesktop.Core",
+    "Microsoft.VisualStudio.Component.VC.Tools.x86.x64",
+    "Microsoft.VisualStudio.Component.Graphics.Win81",
+    "Microsoft.VisualStudio.Component.Graphics.Tools",
+    "Microsoft.VisualStudio.Component.VC.DiagnosticTools",
+    "Microsoft.VisualStudio.Component.VC.ATL",
+    "Microsoft.VisualStudio.Component.VC.TestAdapterForBoostTest",
+    "Microsoft.VisualStudio.Component.VC.TestAdapterForGoogleTest",
+    "Microsoft.Component.VC.Runtime.UCRTSDK",
+    "Microsoft.VisualStudio.Component.WinXP",
+    "Microsoft.VisualStudio.Component.VC.ATLMFC",
+    "Microsoft.VisualStudio.Component.VC.CLI.Support",
+    "Microsoft.VisualStudio.Workload.NativeDesktop",
+    "Component.CPython2.x86",
+    "Microsoft.VisualStudio.Component.Git"
+  ]
+}
+```
